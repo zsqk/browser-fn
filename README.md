@@ -43,3 +43,7 @@ publish:
 ```sh
 npm run tsc && cp package*.json build && cp README.md build && npm publish ./build --access public
 ```
+
+## 更新版本
+
+通过 `npm version` 在代码层面更新版本.
