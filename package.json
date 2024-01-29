@@ -1,8 +1,10 @@
 {
   "name": "@zsqk/somefn",
-  "version": "0.25.0-b1",
+  "version": "0.27.0",
   "description": "some functions for browser",
-  "keywords": ["front-end"],
+  "keywords": [
+    "front-end"
+  ],
   "engines": {
     "node": ">=16"
   },
