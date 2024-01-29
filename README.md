@@ -44,6 +44,8 @@ publish:
 npm run tsc && cp package*.json build && cp README.md build && npm publish ./build --access public
 ```
 
-## 更新版本
+## 更新版本 / 发版
 
-通过 `npm version` 在代码层面更新版本.
+1. 通过 `npm version` 在代码层面更新版本.
+2. 上述操作后, 会在 Git 创建一个分支, 需要 push.
+3. 一旦 push, 会在 GitHub 触发 CI, 自动发布新版本.
