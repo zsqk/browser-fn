@@ -16,7 +16,7 @@ const keyStrUriSafe =
   'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-!';
 export const keyStrBase64Safe =
   'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
-  const baseReverseDic: Record<string, { [key: string]: number }> = {};
+const baseReverseDic: Record<string, { [key: string]: number }> = {};
 
 /**
  * 乱序字符串

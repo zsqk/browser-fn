@@ -31,10 +31,13 @@ const name = `${ua.os} ${ua.softwareName}`;
 
 ## dev
 
+依赖 Deno 运行时的功能:
 本仓库不直接提交新功能, 所有新功能均从上层项目中拉取.
 
+- `gitChanges` 查看 Git 变动.
 本仓库只做 npm 适配工作.
 
+说明:
 publish:
 
 ```sh
