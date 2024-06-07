@@ -2,6 +2,8 @@
 
 some functions for browser
 
+**使用 https://jsr.io/@zsqk/somefn 替代该仓库功能.**
+
 通用 JS 功能 (浏览器环境兼容):
 
 - hash
